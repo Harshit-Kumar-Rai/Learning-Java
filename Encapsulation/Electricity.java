@@ -14,11 +14,10 @@ public class Electricity {
         
         if (unit > 0 && unit <=200) {
             bill = 0;
-        }else if(unit>200 && unit<=500){
+        }
+        else if(unit>200 && unit<=500){
             unit = unit - 200;
             bill = unit * 4;
-            
-
         }
         else{
             unit = unit - 200;
@@ -26,7 +25,7 @@ public class Electricity {
             int less_price = 300 * 4;
             bill = bill - less_price;
         }
-        System.out.println("Total amount be paid :- "+bill);
+        System.out.println("Total amount to be paid :- "+bill);
         
     }
 }
