@@ -1,3 +1,5 @@
+//Assignmnet Date 13-01-2023
+// This is a program for calculate bill first 200 have no charges after 200 to 500 Rs 4 per Unit After 500 to n Rs 6 per unit 
 package Encapsulation;
 
 import java.util.Scanner;
